@@ -16,7 +16,7 @@ import collections
 #TODO: make lowest score an argument
 
 #Set up Argparser
-parser = argparse.ArgumentParser(description="A script to create a Flexential report from an MBSA report")
+parser = argparse.ArgumentParser(description="A script to create a report from an MBSA report")
 parser.add_argument("MBSAfile",help="The name of the .mbsa file")
 args=parser.parse_args()
 
